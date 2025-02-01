@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{369DA9B8-7D40-44D1-8A1E-D18422FEB572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemo.Data", "DapperDemo.Data\DapperDemo.Data.csproj", "{B0281A18-0156-4C60-8212-961A2AF0C609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{369DA9B8-7D40-44D1-8A1E-D18422FEB572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369DA9B8-7D40-44D1-8A1E-D18422FEB572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369DA9B8-7D40-44D1-8A1E-D18422FEB572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369DA9B8-7D40-44D1-8A1E-D18422FEB572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0281A18-0156-4C60-8212-961A2AF0C609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0281A18-0156-4C60-8212-961A2AF0C609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0281A18-0156-4C60-8212-961A2AF0C609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0281A18-0156-4C60-8212-961A2AF0C609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

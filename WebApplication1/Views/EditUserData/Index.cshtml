@@ -1,0 +1,108 @@
+@model DapperDemo.Data.Models.PersonModel
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Person List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .validation-message {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <form method="post" asp-action="AddUser" asp-controller="EditUserData">
+        <table>
+            <tr>
+                <td><label>Person Id:</label></td>
+                <td><input type="number" name="PersonID" value=@Model.PersonID readonly/></td>
+            </tr>
+            <tr>
+                <td><label for="FirstName">First Name:</label></td>
+                <td><input type="text" name="FirstName" value=@Model.FirstName /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="validation-message" asp-validation-for="FirstName"></span></td>
+            </tr>
+            <tr>
+                <td><label for="LastName">Last Name:</label></td>
+                <td><input type="text" name="LastName" value=@Model.LastName /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="validation-message" asp-validation-for="LastName"></span></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><input type="text" name="Address" value=@Model.Address /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="validation-message" asp-validation-for="Address"></span></td>
+            </tr>
+            <tr>
+                <td><label for="City">City:</label></td>
+                <td><input type="text" name="City" value=@Model.City /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span class="validation-message" asp-validation-for="City"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Update User" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

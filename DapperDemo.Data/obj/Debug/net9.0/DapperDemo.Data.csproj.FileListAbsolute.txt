@@ -1,0 +1,12 @@
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/bin/Debug/net9.0/DapperDemo.Data.deps.json
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/bin/Debug/net9.0/DapperDemo.Data.dll
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/bin/Debug/net9.0/DapperDemo.Data.pdb
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.csproj.AssemblyReference.cache
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.AssemblyInfoInputs.cache
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.AssemblyInfo.cs
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.csproj.CoreCompileInputs.cache
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.dll
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/refint/DapperDemo.Data.dll
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/DapperDemo.Data.pdb
+/Users/aryanpatel/Documents/Dapper/DapperDemo.Data/obj/Debug/net9.0/ref/DapperDemo.Data.dll
