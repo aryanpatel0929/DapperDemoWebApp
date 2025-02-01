@@ -17,14 +17,14 @@ namespace DapperDemo.Data.DataAccess
 
         public async Task<IEnumerable<T>> LoadData<T, U>(string storeProcedure, U parameters)
         {
-            string? connectionString = "Server=localhost,1433; Database=msdb; User=sa; Password=yourStrong(!)Password;TrustServerCertificate=true";
+            string? connectionString = _config.GetConnectionString("ConnectionStrings:DefaultConnection");
             using IDbConnection connection = new SqlConnection(connectionString);
             return await connection.QueryAsync<T>(storeProcedure, parameters, commandType: CommandType.StoredProcedure);
         }
 
         public async Task SaveData<T>(string sql, T parameters)
         {
-            string? connectionString = "Server=localhost,1433; Database=msdb; User=sa; Password=yourStrong(!)Password;TrustServerCertificate=true";
+            string? connectionString = _config.GetConnectionString(ConnectionStringName);
             using IDbConnection connection = new SqlConnection(connectionString);
             await connection.ExecuteAsync(sql, parameters, commandType: CommandType.StoredProcedure);
         }
