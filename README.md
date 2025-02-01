@@ -1,5 +1,4 @@
 # DapperDemo Web Application
-<img width="1456" alt="Screenshot 2025-02-02 at 1 57 12 AM" src="https://github.com/user-attachments/assets/cac72691-6141-45bd-9a75-118b1668a000" />
 
 
 This project is a web application built with ASP.NET Core and Dapper for data access. It demonstrates how to use Dapper to interact with a SQL database and display data in a web application.
